@@ -28,9 +28,7 @@ def load_data_cvs_exclude(arg_dict, is_train=False):
     d_validation = []
     d_train = []
     for i in range(len(data[:,0])):
-       if '[bunny_vt]'in data[:,0][i]:
-             d_validation.append(data[i,0:7])
-       if '1_1_cambridge_2k' in data[:,0][i]:
+       if '[bunny_vt]'in data[:,0][i] or '1_1_cambridge_2k' in data[:,0][i]:
              d_validation.append(data[i,0:7])
        else:
              d_train.append(data[i,0:7])

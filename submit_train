@@ -2,7 +2,7 @@
 #SBATCH -p gpu20
 #SBATCH --gres gpu:2
 #SBATCH -t 02-00:00:00
-#SBATCH -o log/test_test.out
+#SBATCH -o log/test_test_new.out
 
 source activate
 conda activate py36

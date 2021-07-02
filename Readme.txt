@@ -1,3 +1,13 @@
+Requirements:
+
+Tensorflow-gpu
+Tensorlayer
+numpy
+scipy
+opencv
+easydict
+sklearn
+pandas
 
 Train:
 1. Set the config.py file

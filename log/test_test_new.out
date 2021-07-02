@@ -1,0 +1,140 @@
+
+Bad key savefig.frameon in file /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 421 ('savefig.frameon : True')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.3.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key verbose.level in file /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 472 ('verbose.level  : silent      # one of silent, helpful, debug, debug-annoying')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.3.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key verbose.fileo in file /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 473 ('verbose.fileo  : sys.stdout  # a log filename, sys.stdout or sys.stderr')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.3.2/matplotlibrc.template
+or from the matplotlib source distribution
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+WARNING:tensorflow:From /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/tensorlayer/layers/core.py:39: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/tensorlayer/layers/pooling.py:66: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/compat/v2_compat.py:61: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/test.py:22: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/test.py:23: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/test.py:24: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/test.py:24: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2021-07-02 15:39:48.462330: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-07-02 15:39:48.491568: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500045000 Hz
+2021-07-02 15:39:48.492789: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556d54a23ed0 executing computations on platform Host. Devices:
+2021-07-02 15:39:48.492808: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2021-07-02 15:39:48.493657: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2021-07-02 15:39:48.866490: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Quadro RTX 8000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:06:00.0
+2021-07-02 15:39:48.868398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: Quadro RTX 8000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:44:00.0
+2021-07-02 15:39:48.869240: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2021-07-02 15:39:48.871258: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2021-07-02 15:39:48.872987: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2021-07-02 15:39:48.873678: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2021-07-02 15:39:48.875157: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2021-07-02 15:39:48.876207: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2021-07-02 15:39:48.879396: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2021-07-02 15:39:48.889262: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2021-07-02 15:39:48.889307: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2021-07-02 15:39:48.893577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-07-02 15:39:48.893591: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 
+2021-07-02 15:39:48.893597: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y 
+2021-07-02 15:39:48.893601: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N 
+2021-07-02 15:39:48.901137: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 16184 MB memory) -> physical GPU (device: 0, name: Quadro RTX 8000, pci bus id: 0000:06:00.0, compute capability: 7.5)
+2021-07-02 15:39:48.908323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 16184 MB memory) -> physical GPU (device: 1, name: Quadro RTX 8000, pci bus id: 0000:44:00.0, compute capability: 7.5)
+2021-07-02 15:39:48.910571: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556d562a0c40 executing computations on platform CUDA. Devices:
+2021-07-02 15:39:48.910588: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Quadro RTX 8000, Compute Capability 7.5
+2021-07-02 15:39:48.910596: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Quadro RTX 8000, Compute Capability 7.5
+2021-07-02 15:39:48.923083: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2021-07-02 15:39:51.248735: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2021-07-02 15:39:51.385356: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+start testing!
+
+
+
+Loading trained parameters from './weights//weights.npz'...
+the parameters is : [<tf.Variable 'vgg_net/encoder/h1/conv_1/W_conv2d:0' shape=(3, 3, 3, 64) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h1/conv_1/b_conv2d:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h1/conv_2/W_conv2d:0' shape=(3, 3, 64, 64) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h1/conv_2/b_conv2d:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h2/conv_1/W_conv2d:0' shape=(3, 3, 64, 128) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h2/conv_1/b_conv2d:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h2/conv_2/W_conv2d:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h2/conv_2/b_conv2d:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h3/conv_1/W_conv2d:0' shape=(3, 3, 128, 256) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h3/conv_1/b_conv2d:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h3/conv_2/W_conv2d:0' shape=(3, 3, 256, 256) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h3/conv_2/b_conv2d:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h3/conv_3/W_conv2d:0' shape=(3, 3, 256, 256) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h3/conv_3/b_conv2d:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h4/conv_1/W_conv2d:0' shape=(3, 3, 256, 512) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h4/conv_1/b_conv2d:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h4/conv_2/W_conv2d:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h4/conv_2/b_conv2d:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h4/conv_3/W_conv2d:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h4/conv_3/b_conv2d:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h5/conv_1/W_conv2d:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h5/conv_1/b_conv2d:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h5/conv_2/W_conv2d:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h5/conv_2/b_conv2d:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h5/conv_3/W_conv2d:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'vgg_net/encoder/h5/conv_3/b_conv2d:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'vgg_net/vgg_out/W:0' shape=(131072, 6) dtype=float32_ref>, <tf.Variable 'vgg_net/vgg_out/b:0' shape=(6,) dtype=float32_ref>]
+...done!
+
+idx 0: './test/imgs/[1_1_cambridge_2k][bunny_vt][MERL-natural-209].jpg'
+y_predict_score is : [0.12758155167102814, 0.04283599182963371, 0.031569916754961014, 0.05712280794978142, 0.1605304479598999, 0.05313489958643913]
+gt is : [0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0]
+loss_mse is : 0.01116152859097632
+loss_mse_each is: [0.0015276462142222872, 0.015334036030594984, 0.018251131836705937, 0.003263015188067611, 0.02577002472220613, 0.0028233175540609695]
+loss_mae is : 0.09480011587341626
+loss_mae_each is: [0.03908511499563852, 0.12383067483703294, 0.13509674991170564, 0.05712280794978142, 0.1605304479598999, 0.05313489958643913]
+idx 1: './test/imgs/[1_1_cambridge_2k][bunny_vt][MERL-neoprene-rubber].jpg'
+y_predict_score is : [0.2020084112882614, 0.08197396993637085, 0.06957938522100449, 0.1281861662864685, 0.5042083859443665, 0.07029739767313004]
+gt is : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+loss_mse is : 0.05466132243825481
+loss_mse_each is: [0.04080739823120738, 0.006719731747129032, 0.0048412908477329375, 0.016431693227222155, 0.2542260964566232, 0.004941724119614188]
+loss_mae is : 0.17604228605826697
+loss_mae_each is: [0.2020084112882614, 0.08197396993637085, 0.06957938522100449, 0.1281861662864685, 0.5042083859443665, 0.07029739767313004]
+idx 2: './test/imgs/[1_1_cambridge_2k][bunny_vt][MERL-nickel].jpg'
+y_predict_score is : [0.983930766582489, 0.8738585114479065, 0.9049438834190369, 0.9843425154685974, 0.8156633377075195, 0.5140201449394226]
+gt is : [0.6666666666666666, 0.16666666666666666, 0.16666666666666666, 0.6666666666666666, 0.3333333333333333, 0.0]
+loss_mse is : 0.29060115843854856
+loss_mse_each is: [0.10065650909539693, 0.5001203053250932, 0.5450532487756262, 0.10091794491202719, 0.2326422331196025, 0.264216709403545]
+loss_mae is : 0.5127931932608286
+loss_mae_each is: [0.3172640999158224, 0.7071918447812399, 0.7382772167523702, 0.3176758488019308, 0.4823300043741862, 0.5140201449394226]
+idx 3: './test/imgs/[1_1_cambridge_2k][bunny_vt][MERL-nylon].jpg'
+y_predict_score is : [0.15202929079532623, 0.08056501299142838, 0.09222829341888428, 0.0923059806227684, 0.2856180667877197, 0.09850432723760605]
+gt is : [0.0, 0.0, 0.0, 0.0, 0.3333333333333333, 0.16666666666666666]
+loss_mse is : 0.008925488320281836
+loss_mse_each is: [0.023112905259729866, 0.006490721318309023, 0.008506058106959813, 0.008520394058730896, 0.0022767466615189512, 0.00464610451644247]
+loss_mae is : 0.08883436396718025
+loss_mae_each is: [0.15202929079532623, 0.08056501299142838, 0.09222829341888428, 0.0923059806227684, 0.04771526654561359, 0.06816233942906061]
+idx 4: './test/imgs/[1_1_cambridge_2k][bunny_vt][MERL-orange-paint].jpg'
+y_predict_score is : [0.09144240617752075, 0.051542241126298904, 0.039171237498521805, 0.06879743188619614, 0.36876797676086426, 0.057320673018693924]
+gt is : [0.0, 0.0, 0.0, 0.0, 0.6666666666666666, 0.0]
+loss_mse is : 0.018219179625344507
+loss_mse_each is: [0.008361713647534685, 0.002656602620321538, 0.0015343858471656008, 0.004733086634135797, 0.0887436294475934, 0.0032856595553160256]
+loss_mae is : 0.10102877993550564
+loss_mae_each is: [0.09144240617752075, 0.051542241126298904, 0.039171237498521805, 0.06879743188619614, 0.29789868990580237, 0.057320673018693924]
+idx 5: './test/imgs/[1_1_cambridge_2k][bunny_vt][MERL-pearl-paint].jpg'
+y_predict_score is : [0.4751858711242676, 0.14733783900737762, 0.17287524044513702, 0.3886730968952179, 0.6062696576118469, 0.13601191341876984]
+gt is : [0.16666666666666666, 0.0, 0.0, 0.0, 0.5, 0.0]
+loss_mse is : 0.05460627400872873
+loss_mse_each is: [0.09518409951915098, 0.021708438803363928, 0.02988584875896394, 0.15106677625011944, 0.011293240128939175, 0.018499240591834942]
+loss_mae is : 0.20994782530599174
+loss_mae_each is: [0.30851920445760095, 0.14733783900737762, 0.17287524044513702, 0.3886730968952179, 0.10626965761184692, 0.13601191341876984]
+idx 6: './test/imgs/[1_1_cambridge_2k][bunny_vt][MERL-pickled-oak-260].jpg'
+y_predict_score is : [0.19149963557720184, 0.08824646472930908, 0.08773908764123917, 0.14687085151672363, 0.2981586456298828, 0.0728970542550087]
+gt is : [0.0, 0.0, 0.0, 0.0, 0.16666666666666666, 0.0]
+loss_mse is : 0.01605547742325123
+loss_mse_each is: [0.03667211042620111, 0.007787438537221192, 0.007698147500117047, 0.02157104702524748, 0.01729014053166288, 0.005313980519057682]
+loss_mae is : 0.11979084544711643
+loss_mae_each is: [0.19149963557720184, 0.08824646472930908, 0.08773908764123917, 0.14687085151672363, 0.13149197896321616, 0.0728970542550087]
+mse_mean is : 0.06489006126362658
+mse_mean_each is : [0.04376034034192046, 0.08011675348314755, 0.08796715881046735, 0.04378627961365008, 0.09032030158116376, 0.043389533751410185]
+mae_mean is : 0.18617677283547224
+mae_mean_each is : [0.1859783090296246, 0.1829554353441511, 0.1907096015555518, 0.17137602627986956, 0.2472063473292759, 0.1388349174743607]
+Done
+

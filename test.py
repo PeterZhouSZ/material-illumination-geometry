@@ -119,15 +119,15 @@ def test(arg_dict):
 ##change the save_path to your own path
 ##the predited score with the ground truth score
     dataframe_gt = pd.DataFrame({'Name': file_name_list, 'glossiness(Pred)':predictor_score[:, 0], 'glossiness(GT)':gt_score[:, 0], 'refsharp(Pred)':predictor_score[:, 1], 'refsharp(GT)':gt_score[:, 1], 'contgloss(Pred)':predictor_score[:, 2], 'contgloss(GT)':gt_score[:, 2], 'metallicness(Pred)':predictor_score[:, 3], 'metallicness(GT)':gt_score[:, 3], 'lightness(Pred)':predictor_score[:, 4], 'lightness(GT)':gt_score[:, 4], 'anisotropy(Pred)':predictor_score[:, 5], 'anisotropy(GT)':gt_score[:, 5]})
-    dataframe_gt.to_csv("/HPS/BRDF2/work/attributes/network_chao/csv_stress_test/polish_gt.csv", index=False,sep=',')
+    dataframe_gt.to_csv("./results/predicted_score.csv", index=False,sep=',')
 
 ##the mse loss between predictor and ground truth    
-    dataframe_mse = pd.DataFrame({'Name': file_name_list, 'glossiness':mse_sum_each_list[:, 0], 'refsharp':mse_sum_each_list[:, 1], 'contgloss':mse_sum_each_list[:, 2], 'metallicness':mse_sum_each_list[:, 3], 'lightness':mse_sum_each_list[:, 4], 'anisotropy':mse_sum_each_list[:, 5], 'mse_all':mse_list})
-    dataframe_mse.to_csv("/HPS/BRDF2/work/attributes/network_chao/csv_stress_test/polish_mse_loss.csv", index=False,sep=',')
+    # dataframe_mse = pd.DataFrame({'Name': file_name_list, 'glossiness':mse_sum_each_list[:, 0], 'refsharp':mse_sum_each_list[:, 1], 'contgloss':mse_sum_each_list[:, 2], 'metallicness':mse_sum_each_list[:, 3], 'lightness':mse_sum_each_list[:, 4], 'anisotropy':mse_sum_each_list[:, 5], 'mse_all':mse_list})
+    # dataframe_mse.to_csv("./results/mse_loss.csv", index=False,sep=',')
  
  ##the mae loss between predictor and ground truth    
     dataframe_mae = pd.DataFrame({'Name': file_name_list, 'glossiness':mae_sum_each_list[:, 0], 'refsharp':mae_sum_each_list[:, 1], 'contgloss':mae_sum_each_list[:, 2], 'metallicness':mae_sum_each_list[:, 3], 'lightness':mae_sum_each_list[:, 4], 'anisotropy':mae_sum_each_list[:, 5], 'mae_all':mae_list})
-    dataframe_mae.to_csv("/HPS/BRDF2/work/attributes/network_chao/csv_stress_test/polish_mae_loss.csv", index=False,sep=',')
+    dataframe_mae.to_csv("./results/mae_loss.csv", index=False,sep=',')
     print('Done\n')
     sess.close()
 
