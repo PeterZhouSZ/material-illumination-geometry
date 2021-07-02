@@ -1,0 +1,90 @@
+
+Bad key savefig.frameon in file /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 421 ('savefig.frameon : True')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.3.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key verbose.level in file /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 472 ('verbose.level  : silent      # one of silent, helpful, debug, debug-annoying')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.3.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key verbose.fileo in file /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 473 ('verbose.fileo  : sys.stdout  # a log filename, sys.stdout or sys.stderr')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.3.2/matplotlibrc.template
+or from the matplotlib source distribution
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+WARNING:tensorflow:From /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/tensorlayer/layers/core.py:39: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/tensorlayer/layers/pooling.py:66: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/chaowang/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/compat/v2_compat.py:61: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/train.py:24: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/train.py:24: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2021-04-09 15:31:49.760116: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-09 15:31:49.798121: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500205000 Hz
+2021-04-09 15:31:49.799629: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ee062b4080 executing computations on platform Host. Devices:
+2021-04-09 15:31:49.800269: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2021-04-09 15:31:49.804466: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2021-04-09 15:31:50.130593: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Quadro RTX 8000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:87:00.0
+2021-04-09 15:31:50.132491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: Quadro RTX 8000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:c4:00.0
+2021-04-09 15:31:50.136733: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2021-04-09 15:31:50.177724: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2021-04-09 15:31:50.199199: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2021-04-09 15:31:50.204120: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2021-04-09 15:31:50.241218: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2021-04-09 15:31:50.246777: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2021-04-09 15:31:50.309023: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2021-04-09 15:31:50.322033: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2021-04-09 15:31:50.322518: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2021-04-09 15:31:50.328394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-09 15:31:50.328405: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 
+2021-04-09 15:31:50.328410: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y 
+2021-04-09 15:31:50.328413: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N 
+2021-04-09 15:31:50.335962: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 46015 MB memory) -> physical GPU (device: 0, name: Quadro RTX 8000, pci bus id: 0000:87:00.0, compute capability: 7.5)
+2021-04-09 15:31:50.340034: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 46015 MB memory) -> physical GPU (device: 1, name: Quadro RTX 8000, pci bus id: 0000:c4:00.0, compute capability: 7.5)
+2021-04-09 15:31:50.342441: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ee07c731e0 executing computations on platform CUDA. Devices:
+2021-04-09 15:31:50.342452: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Quadro RTX 8000, Compute Capability 7.5
+2021-04-09 15:31:50.342456: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Quadro RTX 8000, Compute Capability 7.5
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/train.py:27: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/train.py:28: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/train.py:45: The name tf.train.exponential_decay is deprecated. Please use tf.compat.v1.train.exponential_decay instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/train.py:50: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/train.py:53: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/train.py:55: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From /HPS/BRDF/work/attributes/predictor/train.py:56: The name tf.summary.merge is deprecated. Please use tf.compat.v1.summary.merge instead.
+
+2021-04-09 15:31:52.119531: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2021-04-09 15:31:54.319460: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2021-04-09 15:31:54.711813: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+slurmstepd-gpu20-14: error: *** STEP 4276281.0 ON gpu20-14 CANCELLED AT 2021-04-09T15:34:26 ***
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+slurmstepd-gpu20-14: error: *** JOB 4276281 ON gpu20-14 CANCELLED AT 2021-04-09T15:34:26 ***
