@@ -27,7 +27,7 @@ First, clone and install dependencies
 ```bash
 # clone project   
 git clone https://github.com/Hans1984/material-illumination-geometry.git      
-'''
+```
 
 Get model pretrained weights
 - download model [weights](https://drive.google.com/file/d/1nEvTcSOaWxQGpS19JMyStr6NWy38Pcvm/view?usp=sharing)
@@ -36,18 +36,6 @@ Get model pretrained weights
 
 ### Training a new model
 
-Make sure that you have downloaded all the [training images](https://drive.google.com/file/d/1v7hQHIrLZYocn-rW9kalVQP8wYQ6Kg3x/view?usp=sharing)
-Also, make sure that you have users' judgements on material similarity. Those
- are two _json_ files inside `./data`, namely `answers_processed_train.json
- `, and `answers_processed_test.json`.
-Also make sure that you have the uncropped images of each material with
- Havran geometry (`./data/havran1_ennis_298x298_LDR`).
- 
-Then, set up those arguments in the trianing script and run it:
-```bash
-python train.py --train-dir data/split_dataset --test-dir data
-/havran1_ennis_298x298_LDR
-```
 Using the default values in the script, the trained model yields an agreement of
  81.99% with users' answers.
  
