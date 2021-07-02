@@ -85,7 +85,7 @@ def train(arg_dict):
             step_time = time.time()
             b_idx = (idx + np.arange(arg_dict.batch_size)) % len(input_files)
 
-            input_imgs = read_imgs_augmentation(input_files[b_idx])#read_imgs(input_files[b_idx])
+            input_imgs = read_imgs_augmentation(input_files[b_idx])
             gt_pred = gt_values[b_idx]
 
             feed_dict = {input_imgs_ph: input_imgs, label_pred_ph: gt_pred}

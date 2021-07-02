@@ -202,7 +202,6 @@ def RMSLE(y_predict, gt):
 def loss_mae_np_each(y_predict, gt):
     loss_all = []
     for idx in range(6):
-        #loss_mse = mean_squared_error(y_predict[idx], gt[idx])
         loss_mse = np.abs(y_predict[idx] - gt[idx])
         loss_all.append(loss_mse)
     loss_mean = np.mean(loss_all)
@@ -211,7 +210,6 @@ def loss_mae_np_each(y_predict, gt):
 def loss_mse_np_each(y_predict, gt):
     loss_all = []
     for idx in range(6):
-        #loss_mse = mean_squared_error(y_predict[idx], gt[idx])
         loss_mse = (y_predict[idx] - gt[idx])**2
         loss_all.append(loss_mse)
     loss_mean = np.mean(loss_all)

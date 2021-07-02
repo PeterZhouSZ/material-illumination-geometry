@@ -16,12 +16,8 @@ def conv_layer(input_layer, sz, name='conv'):
 
 def res_block(inputres, sz, name="res_block", is_train=False):
     with tf.variable_scope(name, reuse = tf.AUTO_REUSE):
-        #out_res = tf.pad(inputres, [[0, 0], [1, 1], [1, 1], [0, 0]], "REFLECT")
         out_res = conv_layer(inputres, sz, name = 'c1' )
-        #out_res = BatchNormLayer(out_res, name = 'bn1', is_train=is_train)
-
         out_res = conv_layer(out_res, sz, name = 'c2')
-        #out_res = BatchNormLayer(out_res, name = 'bn2', is_train=is_train)
         out_res.outputs = tf.nn.relu(out_res.outputs + inputres.outputs)
 
         return out_res
@@ -29,10 +25,8 @@ def res_block(inputres, sz, name="res_block", is_train=False):
 def res_net_nobn(arg_dict, input, num_blocks = 52, scope = 'resnet', is_train=False):
     with tf.variable_scope(scope):
         out_res = InputLayer(input, name='res_in')
-        #out_res = conv_layer(out_res, [3, 3, 3, 64], name = 'conv_1')
         out_res = Conv2dLayer(out_res, act = tf.nn.relu, shape = [3, 3, 3, 64], strides = [1, 2, 2, 1], padding = 'VALID', name = 'downsample_1')
         out_res = Conv2dLayer(out_res, act = tf.nn.relu, shape = [3, 3, 64, 64], strides = [1, 2, 2, 1], padding = 'VALID', name = 'downsample_2')
-        #out_res = Conv2dLayer(out_res, act = tf.nn.relu, shape = [3, 3, 64, 64], strides = [1, 2, 2, 1], padding = 'VALID', name = 'downsample_3')
         for i in range(num_blocks):
             out_res = res_block(out_res, [3, 3, 64, 64], name='res_block_/%s'%i, is_train=is_train)
         out_res = Conv2dLayer(out_res, act = tf.nn.relu, shape = [3, 3, 64, 64], strides = [1, 2, 2, 1], padding = 'VALID', name = 'downsample_3')
@@ -43,7 +37,6 @@ def res_net_nobn(arg_dict, input, num_blocks = 52, scope = 'resnet', is_train=Fa
 #vgg net
 def vgg_encoder(arg_dict, input, scope = 'vgg_encoder', is_train=False):
     with tf.variable_scope(scope):
-        #x_input = tf.scalar_mul(255.0, input)
         net_in = tl.layers.InputLayer(input, name='input_layer')
         conv_layers, vgg16_conv_layers = encoder(net_in)
         out = FlattenLayer(conv_layers, name='flatten_layer')
