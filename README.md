@@ -34,7 +34,8 @@ Get model pretrained weights
 - download dataset [dataset]()
 
 ## How to test
-Here we give several test images with labels under the folder ./test.
+Here we give several test images with labels under the folder ./test. To test, you can download the pre-trained model, put it under the ./weights folder.
+Run:
 ```bash
 python main.py
 ```
