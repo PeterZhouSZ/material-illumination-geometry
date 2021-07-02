@@ -32,61 +32,23 @@ git clone https://github.com/Hans1984/material-illumination-geometry.git
 Get model pretrained weights
 - download model [weights](https://drive.google.com/file/d/1nEvTcSOaWxQGpS19JMyStr6NWy38Pcvm/view?usp=sharing)
 
-## How to run the code  
+## How to test
+```bash
+python main.py
 
-### Training a new model
+```
+
+### How to Training
 
 Using the default values in the script, the trained model yields an agreement of
  81.99% with users' answers.
  
 
+### Predictor Examples
 
-### Getting image feature vectors
-
-Next, get the feature vectors for some images. First, modify paths inside `get_embs.py`.
-```python
-...
-weights_path = 'data/model_best.pth.tar'
-imgs_path = 'data/havran1_stpeters_256x256_LDR'
-embs_path = 'data/embs.mat' # we will store the obtained feature vectors in this path
-...
-```
-
-Then, get the feature vectors for the downloaded images
-```bash
-python3 get_embs.py    
-```
-
-### Get similar images
-We can obtain similar images to a given reference using the previously computed feature vectors. First, set the path and necesary variables in `plot_similar.py`. This will store the 5 more similar images to the reference according to our metric in the path `data/nickel`.
-```python
-...
-embs_path = 'data/embs.mat'  # /mat file with the embeddings
-n_close_elems = 5  # number of close elements to find
-reference_img = 'data/havran1_stpeters_256x256_LDR/nickel.png'
-do_unit_norm = False # normalize feature vectors to have unit norm
-...
-```
+Here are testing examples, we show the predictor results with human annotation.
 <div align="center">  
-<img src="__media__/similar.png">
-</div>
-
-### Generate UMAP plot
-
-We can visualize the feature vectors generated for the images using dimensionality reduction algorithms like UMAP. 
-First we set the path of the feature vectors inside `plot_umap.py`. 
-```python
-...
-embs_path = 'data/embs.mat'
-do_unit_norm = False # normalize feature vectors to have unit norm
-...
-```
-To generate the plot we run:
-```bash
-python3 plot_umap.py
-```
-<div align="center">  
-<img src="__media__/umap.png" >
+<img src="images/results.png" >
 </div>
 
 ## Citation   
