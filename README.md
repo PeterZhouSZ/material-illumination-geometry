@@ -3,16 +3,16 @@ Code for Siggraph 2021 paper: The effect of shape and illumination on material p
 <div align="center">  
   
 # A Similarity Measure for Material Appearance   
-[![Project page](http://mig.mpi-inf.mpg.de/)
-[![Paper]()
-[![Conference]()
-[![Journal]()
+[![Project page](https://img.shields.io/badge/-Project%20page-blue)](http://mig.mpi-inf.mpg.de/)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)]()
+[![Conference](https://img.shields.io/badge/SIGGRAPH-2021-green)]()
+[![Journal](https://img.shields.io/badge/TOG-2021-green)]()
 
 </div>
 
 ![alt text][teaser]
 
-[teaser]: https://github.com/Hans1984/material-illumination-geometry/tree/main/images.teaser.png
+[teaser]: https://github.com/Hans1984/material-illumination-geometry/tree/main/images.teaser.png ""
 
 ## Abstract   
 We present a model to measure the similarity in appearance between different materials, which correlates with human similarity judgments. We first create a database of 9,000 rendered images depicting objects with varying materials, shape and illumination. We then gather data on perceived similarity from crowdsourced experiments; our analysis of over 114,840 answers suggests that indeed a shared perception of appearance similarity exists. We feed this data to a deep learning architecture with a novel loss function, which learns a feature space for materials that correlates with such perceived appearance similarity. Our evaluation shows that our model outperforms existing metrics. Last, we demonstrate several applications enabled by our metric, including appearance-based search for material suggestions, database visualization, clustering and summarization, and gamut mapping.
