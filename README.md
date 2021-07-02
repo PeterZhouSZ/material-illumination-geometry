@@ -17,23 +17,17 @@ Code for Siggraph 2021 paper: The effect of shape and illumination on material p
 ## Abstract   
 Material appearance hinges on material reflectance properties but also surface geometry and illumination. The unlimited number of potential combinations between these factors makes understanding and predicting material appearance a very challenging task. In this work, we collect a large-scale dataset of perceptual ratings of appearance attributes with more than 215,680 responses for 42,120 distinct combinations of material, shape, and illumination. The goal of this dataset is twofold. First, we analyze for the first time the effects of illumination and geometry in material perception across such a large collection of varied appearances. We connect our findings to those of the literature, discussing how previous knowledge generalizes across very diverse materials, shapes, and illuminations. Second, we use the collected dataset to train a deep learning architecture for predicting perceptual attributes that correlate with human judgments. We demonstrate the consistent and robust behavior of our predictor in various challenging scenarios, which, for the first time, enables estimating perceived material attributes from general 2D images. Since the predictor relies on the final appearance in an image, it can compare appearance properties across different geometries and illumination conditions. Finally, we demonstrate several applications that use our predictor, including appearance reproduction using 3D printing, BRDF editing by integrating our predictor in a differentiable renderer, illumination design, or material recommendations for scene design.
 
-## Setting it up   
-_Note that this has been tested using python 3.7_
+## Environment Setting it up   
+ conda env create -f environment.yml
 
 ### Dependencies
 First, clone and install dependencies   
 ```bash
 # clone project   
-git clone https://github.com/mlagunas/material-appearance-similarity.git   
-
-cd material-appearance-similarity 
-pip install scipy numpy matplotlib umap-learn Pillow
-# install pytorch/torchvision (https://pytorch.org)
- ```   
+git clone https://github.com/Hans1984/material-illumination-geometry.git      
 
 Get model pretrained weights
-- download model [weights](https://drive.google.com/file/d/1lAkmIRTLgFXjgO5PQ7NNOCYQeNh0JH-N/view?usp=sharing)
-- _(optional)_ download [all images](https://drive.google.com/file/d/1v7hQHIrLZYocn-rW9kalVQP8wYQ6Kg3x/view?usp=sharing)
+- download model [weights](https://drive.google.com/file/d/1nEvTcSOaWxQGpS19JMyStr6NWy38Pcvm/view?usp=sharing)
 
 ## How to run the code  
 
