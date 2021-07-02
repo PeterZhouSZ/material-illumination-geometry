@@ -34,14 +34,14 @@ Get model pretrained weights
 - download dataset [dataset]()
 
 ## How to test
-Here we give several test images with labels under the folder ./test. To test, you can download the pre-trained model, put it under the ./weights folder.
+Here we give several test images with labels under the folder ./test. To test, you can download the pre-trained model, put it under the ./weights folder.\\
 Run:
 ```bash
 python main.py
 ```
 
 ### How to Train a new model
-Edit the config.py, put training data under 'input_path' and labels unbder gt_path.
+Edit the config.py, put training data under 'input_path' and labels unbder gt_path.\\
 Run:
 ```bash
 python main.py --is_test False
