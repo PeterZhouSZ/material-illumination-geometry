@@ -31,19 +31,20 @@ git clone https://github.com/Hans1984/material-illumination-geometry.git
 
 Get model pretrained weights
 - download model [weights](https://drive.google.com/file/d/1nEvTcSOaWxQGpS19JMyStr6NWy38Pcvm/view?usp=sharing)
+- download dataset [dataset]()
 
 ## How to test
+Here we give several test images with labels under the folder ./test.
 ```bash
 python main.py
-
 ```
 
-### How to Training
-
-Using the default values in the script, the trained model yields an agreement of
- 81.99% with users' answers.
- 
-
+### How to Train a new model
+Edit the config.py, put training data under 'input_path' and labels unbder gt_path.
+Run:
+```bash
+python main.py --is_test False
+```
 ### Predictor Examples
 
 Here are testing examples, we show the predictor results with human annotation.
@@ -54,13 +55,10 @@ Here are testing examples, we show the predictor results with human annotation.
 ## Citation   
 If you found this code useful please cite our work as:
 ```
-@article{lagunas2019similarity,
-    author = {Lagunas, Manuel and Malpica, Sandra and Serrano, Ana and
-    Garces, Elena and Gutierrez, Diego and Masia, Belen},
-    title = {A Similarity Measure for Material Appearance},
-    journal = {ACM Transactions on Graphics (SIGGRAPH 2019)},
-    volume = {38},
-    number = {4},
-    year = {2019}
-}
+@article{SIGG2021_Materials,
+        author = {Serrano, Ana and Chen, Bin and Wang, Chao, and Piovarci, Michal and Seidel, Hans-Peter and Didyk, Piotr and Myszkowski, Karol},
+        title = {The effect of shape and illumination on material perception: model and applications},
+        journal = {ACM Trans. on Graph.},
+        year = {2021},
+    }
 ```   
